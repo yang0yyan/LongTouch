@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/btn_float_add"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#832196F3"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="添加"/>
+    <TextView
+        android:id="@+id/btn_float_start"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4800E2FF"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="开始"/>
+    <TextView
+        android:id="@+id/btn_float_stop"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#480098AC"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="结束"/>
+
+</LinearLayout>
